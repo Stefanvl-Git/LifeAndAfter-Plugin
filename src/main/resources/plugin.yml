@@ -1,0 +1,13 @@
+name: LifeAndAfter
+version: '${project.version}'
+main: me.stefanvl.lifeandafter.LifeAndAfter
+api-version: 1.17
+authors: [ stefanvl ]
+description: A plugin that allows you to steal HP from other players. If you die you lose a heart and if you kill someone you gain a heart.
+commands:
+  alhealth:
+    description: Check how much health a player has.
+    usage: /alhealth <player>
+  alreset:
+    description: Resets a players hearts to the default amount.
+    usage: /alreset <player>
